@@ -16,6 +16,7 @@ steps:
           --mandt '${_MANDT}' \
           --sql-flavour '${_SQL_FLAVOUR}' \
             '${_VIEWS_DIR}'
+
 logsBucket: "gs://$_GCS_BUCKET"
 timeout: 7200s
 substitutions:
